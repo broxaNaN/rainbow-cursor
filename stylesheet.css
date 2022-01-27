@@ -1,0 +1,37 @@
+body {
+    background-color: #E3E3E3;
+    overflow: hidden;
+}
+
+.full {
+    height: 100%;
+    width: 100%;
+    filter: blur(100px);
+    z-index: 1;
+    position: absolute;
+}
+
+.fullnb {
+    height: 100%;
+    width: 100%;
+    opacity: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: absolute;
+}
+
+.monospace {
+    font-family: 'Lucida Console';
+    font-size: 30px;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 0.7;
+    }
+    to {
+        opacity: 0;
+    }
+}
